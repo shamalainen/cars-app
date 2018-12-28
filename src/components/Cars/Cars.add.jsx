@@ -16,10 +16,10 @@ const CarsAdd = ({ AddCar }) => {
       license: license.value,
     };
     AddCar(newCar);
-    // brand.value = '';
-    // model.value = '';
-    // color.value = '';
-    // license.value = '';
+    brand.value = '';
+    model.value = '';
+    color.value = '';
+    license.value = '';
   };
 
   return (
